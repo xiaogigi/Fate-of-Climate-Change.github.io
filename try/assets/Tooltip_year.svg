@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="366px" height="98px" viewBox="0 0 366 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Tooltip left</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-page-1" transform="translate(-456.000000, -24.000000)" fill="#313131">
+            <g id="Tooltip-right" transform="translate(456.000000, 27.000000)">
+                <rect id="Rectangle" x="28.5267857" y="0.699186992" width="331" height="84.5391986"></rect>
+                <polygon id="Rectangle" transform="translate(61.026786, 43.126522) rotate(-45.000000) translate(-61.026786, -43.126522) " points="21.5267857 3.6265218 91.1105546 13.0427529 100.526786 82.6265218 30.9430168 73.2102907"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

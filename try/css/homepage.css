@@ -1,0 +1,1344 @@
+body {margin: 0; background: #3979B6;}
+
+#homepage-title{
+	
+	font-family: anisette-petite,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 51px;
+	letter-spacing: 0.31px;	
+	line-height: 68px;
+	color: #F4F4F4;
+	height: 68px;
+	width: 662px;
+	position: absolute;
+	left: 29.64%;
+	top: 28.84%;
+	cursor: pointer;
+/*	display: none;*/
+}
+
+#year_text{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 28px;
+	letter-spacing: 0.17px;
+	line-height: 40px;
+	height: 40px;
+		width: 51px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 2.98%;
+	top: 5.25%;
+}
+
+#year_box{
+	height: 26px;
+	width: 266px;
+	opacity: 0.86;
+	border-radius: 13px;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 9.94%;
+	top: 6.18%;
+}
+
+#year_bar{
+		height: 26px;
+	width: 0px;
+	opacity: 0.86;
+	border-radius: 13px;
+	background-color: #D99311;
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+}
+
+#budget_text{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 28px;
+	letter-spacing: 0.17px;
+	line-height: 40px;
+	height: 40px;
+		width: 86px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 2.98%;
+	top: 12.67%;
+}
+
+#budget_box{
+	height: 26px;
+	width: 266px;
+	opacity: 0.86;
+	border-radius: 13px;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 9.94%;
+	top: 13.39%;
+}
+
+#budget_bar{
+	height: 26px;
+	width: 266px;
+	opacity: 0.86;
+	border-radius: 13px;
+	background-color: #D99311;
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+}
+
+#triangle{
+	position: absolute;
+/*
+	left: 11.79%;
+	top: 3.3%;
+*/
+	margin-top: -30px;
+	margin-left: -10.5px;
+}
+
+#year{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 20px;
+	letter-spacing: 0.12px;
+		line-height: 28px;
+	height: 28px;
+	width: 41px;
+	color: #FFFFFF;
+	position: absolute;
+	margin-top: 33px;
+	margin-left: -20.5px;
+}
+
+#budget{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 20px;
+	letter-spacing: 0.12px;
+	line-height: 28px;
+	color: #FFFFFF;
+	height: 28px;
+	width: 41px;
+	position: absolute;
+	margin-top: 33px;
+	margin-left: 236px;
+}
+
+
+#mitigation{
+	position: absolute;
+	left: 13.33%;
+	top: 42.12%;
+/*	display: none;*/
+}
+
+#adaptation{
+	position: absolute;
+	left: 57.62%;
+	top: 47.06%;
+/*	display: none;*/
+}
+
+#cloud1{
+	position: absolute;
+	left: 2.98%;
+	top: 22.35%;
+}
+
+#cloud2{
+	position: absolute;
+	left: 39.52%;
+	top: 11.02%;
+/*	display: none;*/
+}
+
+#cloud3{
+	position: absolute;
+	left: 62.86%;
+	top: 3.09%;
+/*	display: none;*/
+}
+
+#cloud4{
+	position: absolute;
+	left: 84.4%;
+	top: 24.3%;
+}
+
+#mitigation_button{
+	position: absolute;
+	left: 11.90%;
+	top: 59.22%;
+/*	display: none;*/
+}
+
+#mitigation_button_text{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 28px;
+	letter-spacing: 0.17px;
+	line-height: 40px;
+	height: 40px;
+	width: 451px;
+	color: #3C3C3C;
+	position: absolute;
+	left: 14.23%;
+	top: 61.59%;
+	cursor: pointer;
+/*	display: none;*/
+}
+
+#adaptation_button{
+	position: absolute;
+	left: 55.3%;
+	top: 59.22%;
+/*	display: none;*/
+}
+
+#adaptation_button_text{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 28px;
+	letter-spacing: 0.17px;
+	line-height: 40px;
+	height: 40px;
+/*	width: 465px;*/
+	color: #3C3C3C; 
+	position: absolute;
+	left: 57.2%;
+	top: 61.59%;
+	cursor: pointer;
+/*	display: none;*/
+}
+
+#message_center{
+	position: fixed;
+	left: 92.59%;
+	top: 77.7%;
+	cursor: pointer;
+}
+
+#unread{
+	position: fixed;
+	left: 92.59%;
+	top: 77.7%;
+	display: none;
+	cursor: pointer;
+}
+
+#my_strategy{
+	position: fixed;
+	left: 92.62%;
+	top: 88.67%;;
+}
+
+#campaign_card{
+	position: absolute;
+	top: 41.71%;
+	left: 10.89%;
+	display: none;
+}
+
+.card_title{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	height: 64px;
+	width: 219px;
+	color: #3C3C3C;
+	font-size: 22px;
+	letter-spacing: 0.13px;
+	line-height: 32px;
+	text-align: center;
+	margin-top: -166.41px;
+	margin-left: 16px;
+}
+
+.card_price{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	letter-spacing: 0.13px;
+	line-height: 32px;
+	font-size: 22px;
+	color: #3C3C3C;
+	text-align: center;
+	height: 32px;
+	width: 219px;
+	margin-left: 16px;
+	margin-top: 49px;
+}
+
+#power_card{
+	position: absolute;
+	left: 26.73%;
+	top: 41.71%;
+display: none;
+}
+
+#emission_card{
+	position: absolute;
+	left: 42.56%;
+	top: 41.71%;
+	display: none;
+}
+
+#organization_card{
+	position: absolute;
+	left: 58.39%;
+	top: 41.71%;
+	display: none;
+}
+
+#transportation_card{
+	position: absolute;
+	left: 74.23%;
+	top: 41.71%;
+	display: none;
+}
+
+#migration_card{
+	position: absolute;
+	top: 41.71%;
+	left: 10.89%;
+	display: none;
+}
+
+#disease_card{
+	position: absolute;
+	left: 26.73%;
+	top: 41.71%;
+	display: none;
+}
+
+#water_card{
+	position: absolute;
+	left: 42.56%;
+	top: 41.71%;
+	display: none;
+}
+
+#bioengineering_card{
+position: absolute;
+	left: 58.39%;
+	top: 41.71%;
+	display: none;
+}
+
+#child_card{
+	position: absolute;
+	left: 74.23%;
+	top: 41.71%;
+	display: none;
+}
+
+#migration_explaination{
+		position: absolute;
+	top: 41.9%;
+	left: 11.22%;
+	opacity: 0;
+	transition: .5s ease;
+	z-index: 1;
+	display: none;
+	cursor: pointer;
+}
+
+
+#migration_explaination:hover{
+	opacity: 1;
+}
+
+.explaination{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 20px;
+	letter-spacing: 0.12px;
+	line-height: 28px;
+	height: 232px;
+	width: 195px;
+	color: #FFFFFF;
+	margin-top: -277.86px;
+	margin-left: 28px;
+/*	cursor: pointer;*/
+}
+
+#disease_explaination{
+	position: absolute;
+	top: 41.9%;
+	left: 27.05%;
+	opacity: 0;
+	display: none;
+	cursor: pointer;
+}
+#disease_explaination:hover{
+	opacity: 1;
+}
+
+#water_explaination{
+	position: absolute;
+	top: 41.9%;
+	left: 42.88%;
+	opacity: 0;
+	display: none;
+	cursor: pointer;
+}
+
+#water_explaination:hover{
+	opacity: 1;
+}
+
+#bioengineering_explaination{
+	position: absolute;
+	top: 41.9%;
+	left: 58.71%;
+	opacity: 0;
+	display: none;
+	cursor: pointer;
+}
+
+#bioengineering_explaination:hover{
+	opacity: 1;
+}
+
+#child_explaination{
+	position: absolute;
+	top: 41.9%;
+	left: 74.54%;
+	opacity: 0;
+	display: none;
+	cursor: pointer;
+}
+
+#child_explaination:hover{
+	opacity: 1;
+}
+
+/*Mitigation explaination*/
+#campaign_explaination{
+		position: absolute;
+	top: 41.9%;
+	left: 11.22%;
+	opacity: 0;
+	transition: .5s ease;
+	z-index: 1;
+	display: none;
+	cursor: pointer;
+}
+
+
+#campaign_explaination:hover{
+	opacity: 1;
+}
+
+#power_explaination{
+	position: absolute;
+	top: 41.9%;
+	left: 27.05%;
+	opacity: 0;
+	display: none;
+	cursor: pointer;
+}
+#power_explaination:hover{
+	opacity: 1;
+}
+
+#emission_explaination{
+	position: absolute;
+	top: 41.9%;
+	left: 42.88%;
+	opacity: 0;
+	display: none;
+	cursor: pointer;
+}
+
+#emission_explaination:hover{
+	opacity: 1;
+}
+
+#organization_explaination{
+	position: absolute;
+	top: 41.9%;
+	left: 58.71%;
+	opacity: 0;
+	display: none;
+	cursor: pointer;
+}
+
+#organization_explaination:hover{
+	opacity: 1;
+}
+
+#transport_explaination{
+	position: absolute;
+	top: 41.9%;
+	left: 74.54%;
+	opacity: 0;
+	display: none;
+	cursor: pointer;
+}
+
+#transport_explaination:hover{
+	opacity: 1;
+}
+
+#strategy_box{
+	position: absolute;
+	top: 41.71%;
+	left: 10.89%;
+	width: 1338px;
+	display: none;
+}
+
+.strategy_frame{
+	float: left;
+	margin-left: 16px;
+}
+
+#campaign_strategy{
+	display: none;
+}
+
+#power_strategy{
+	display: none;
+}
+
+#emission_strategy{
+	display: none;
+}
+
+#organization_strategy{
+	display: none;
+}
+
+#transportation_strategy{
+	display: none;
+}
+
+#migration_strategy{
+	display: none;
+}
+
+#disease_strategy{
+	display: none;
+}
+
+#water_strategy{
+	display: none;
+}
+
+#bioengineering_strategy{
+	display: none;
+}
+
+#child_strategy{
+	display: none;
+}
+
+#power_message_detail{
+	display: none;
+}
+
+#power_message2_detail{
+	display: none;
+}
+
+#power_message3_detail{
+	display: none;
+}
+
+.rectangle{
+	height: 586px;
+	width: 778px;
+	opacity: 0.91;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+	top: 35.74%;
+	left: 27.02%;
+/*	display: none;*/
+    z-index: 1;
+}
+
+.close{
+margin-top: 22px;
+	margin-left: 27px;
+	cursor: pointer;
+}
+
+
+
+.message_title{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 30px;
+	letter-spacing: 0.18px;
+	line-height: 43px;
+/*	height: 43px;*/
+	width: 590px;
+	color: #3C3C3C;
+	margin-top: 26px;
+	margin-left: 94px;
+}
+
+.message_body{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	height: 280px;
+	width: 707px;
+	margin-top: 55px;
+	margin-left: 46px;
+}
+
+#yes{
+	margin-top: 48px;
+	margin-left: 225px;
+	cursor: pointer;
+/*	display: none;*/
+}
+
+#yesyes{
+	margin-left: 389px;
+	margin-top: 48px;
+	display: none;
+}
+
+#no{
+	margin-top: -62px;
+	margin-left: 494px;
+	cursor: pointer;
+/*	display: none;*/
+}
+
+#no2{
+	
+		margin-left: 389px;
+	margin-top: 48px;
+	display: none;
+}
+
+#message_box{
+	position: absolute;
+	top: 38.21%;
+	left: 20.77%;
+	display: none;
+}
+
+#power_message{
+	display: none;
+}
+
+#power_message2{
+	display: none;
+}
+
+#power_message3{
+	display: none;
+}
+
+#water_message{
+	display: none;
+}
+
+#epidemic_message{
+	display: none;
+}
+
+.message_frame{
+	height: 137px;
+	width: 983px;
+	border-radius: 62px;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+	margin-top: 38px;
+	cursor: pointer;
+}
+
+.message_frame p{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 30px;
+	letter-spacing: 0.18px;
+	line-height: 43px;
+	color: #3C3C3C;
+	text-align: center;
+	padding-top: 47px;
+}
+
+.news_box{
+	height: 357px;
+	width: 488px;
+	opacity: 0.95;
+	border-radius: 31px;
+	background-color: #F8A754;
+	position: absolute;
+	left: 35.48%;
+	top: 42.12%;
+}
+
+.flash_news{
+	margin-left: 118px;
+	margin-top: 36px;
+}
+
+.flash_news_title{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 35px;
+	letter-spacing: 0.21px;
+	line-height: 50px;
+	color: #F4F4F4;
+	margin-left: 199px;
+	margin-top: -54px;
+}
+
+.flash_news_body{
+	height: 75px;
+	width: 428px;
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 30px;
+	letter-spacing: 0.18px;
+	line-height: 43px;
+	color: #F4F4F4;
+	margin-top: 40px;
+	margin-left: 32px;
+}
+
+.got_it{
+	height: 51px;
+	width: 137px;
+	border-radius: 25.5px;
+	background-color: #F4F4F4;
+	margin-top: 81px;
+	margin-left: 176px;
+	cursor: pointer;
+}
+
+.got_it p{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	text-align: center;
+	padding-top: 8px;
+}
+
+#heat_news{
+	display: none;
+}
+
+#disease_news{
+	display: none;
+}
+
+#map{
+position: absolute;
+	top: 47.79%;
+	left: 18.81%;
+	display: none;
+}
+
+.temperature{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+/*	height: 224px;*/
+	width: 784px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 30.12%;
+	top: 13.39%;
+	display: none;
+}
+
+#temperature1{
+	display: none;
+}
+
+#temperature2{
+	display: none;
+}
+
+#scenario_organization_title{
+	height: 63px;
+	width: 566px;
+	border-radius: 31.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+	left: 1.25%;
+	top: 40.58%;
+	cursor: pointer;
+	display: none;
+	
+}
+
+#scenario_organization_title p{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	height: 36px;
+	width: 518px;
+	margin-top: 15px;
+	margin-left: 24px;
+}
+
+#path5{
+	position: absolute;
+	left: 34.88%;
+	top: 43.74%;
+	display: none;
+}
+
+#scenario_terrorism_title{
+	height: 63px;
+	width: 371px;
+	border-radius: 31.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+	left: 1.25%;
+	top: 76.21%;
+	cursor: pointer;
+	display: none;
+}
+
+#scenario_terrorism_title p{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	height: 36px;
+	width: 322px;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+
+#path2{
+	position: absolute;
+	left: 12.25%;
+	top: 59.73%;
+	display: none;
+}
+
+#scenario_transportation_title{
+	height: 63px;
+	width: 518px;
+	border-radius: 31.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+	left: 48.04%;
+	top: 34.6%;
+	display: none;
+	cursor: pointer;
+}
+
+#scenario_transportation_title p{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	height: 36px;
+	width: 470px;
+	margin-top: 15px;
+	margin-left: 24px;
+}
+
+#path6{
+	position: absolute;
+	left: 59.58%;
+	top: 40.99%;
+	display: none;
+}
+
+#scenario_power_title{
+height: 63px;
+	width: 503px;
+	border-radius: 31.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+	left: 68.57%;
+	top: 45%;
+	display: none;
+	cursor: pointer;
+}
+
+#scenario_power_title p{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	height: 36px;
+	width: 451px;
+	margin-top: 15px;
+	margin-left: 26px;
+}
+
+#path4{
+	position: absolute;
+	left: 69.51%;
+	top: 51.39%;
+	display: none;
+}
+
+#scenario_migration_title{
+	height: 63px;
+	width: 676px;
+	border-radius: 31.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+	left: 58.75%;
+	top: 68.38%;
+	display: none;
+	cursor: pointer;
+}
+
+#scenario_migration_title p{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	height: 36px;
+	width: 629px;
+	margin-top: 15px;
+	margin-left: 24px;
+}
+
+#path7{
+	position: absolute;
+	left: 49.89%;
+	top: 61.98%;
+	display: none;
+}
+
+#scenario_migration_title2 {
+	height: 63px;
+	width: 568px;
+	border-radius: 31.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+	left: 65.65%;
+	top: 70.24%;
+	display: none;
+	cursor: pointer;
+}
+
+#scenario_migration_title2 p{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	height: 36px;
+	width: 514px;
+	margin-top: 15px;
+	margin-left: 27px;
+}
+
+#path3{
+	position: absolute;
+	left: 71.34%;
+	top: 76.73%;
+	display: none;
+}
+
+#scenario_child_title {
+	height: 63px;
+	width: 433px;
+	border-radius: 31.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+	top: 89.29%;
+	left: 42.8%;
+	display: none;
+	cursor: pointer;
+}
+
+#scenario_child_title p{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	height: 36px;
+	width: 381px;
+	margin-top: 15px;
+	margin-left: 26px;
+}
+
+#path9{
+	position: absolute;
+	left: 55.28%;
+	top: 65.87%;
+	display: none;
+}
+
+#scenario_bioengineering_title{
+	height: 63px;
+	width: 512px;
+	border-radius: 31.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+	left: 3.33%;
+	top: 88.67%;
+	display: none;
+	cursor: pointer;
+}
+
+#scenario_bioengineering_title p{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	height: 36px;
+	width: 463px;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+
+#path8{
+	position: absolute;
+	top: 80.2%;
+	left: 19.90%;
+	display: none;
+}
+
+.scenario_detail_box {
+/*	height: 351px;*/
+	width: 778px;
+	opacity: 0.91;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+	position: absolute;
+	left: 26.25%;
+	top: 40.16%;
+	z-index: 1;
+}
+
+.scenario_detail_title{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	
+	font-size: 28px;
+	letter-spacing: 0.17px;
+	line-height: 40px;
+	color: #3C3C3C;
+	text-align: center;
+	margin-top: -17.5px;
+}
+
+.scenario_detail_body{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	margin-top: 16px;
+	margin-bottom: 49px;
+	margin-left: 37px;
+	margin-right: 31px;
+}
+
+.close2{
+	margin-top: 24.5px;
+	margin-left: 28px;
+cursor: pointer;
+}
+
+#scenario_organization_detail{
+	display: none;
+}
+
+#scenario_terrorism_detail{
+	position: absolute;
+	left: 26.25%;
+	top: 24.3%;
+	display: none;
+}
+
+#scenario_transportation_detail{
+	display: none;
+}
+
+#scenario_power_detail{
+	display: none;
+}
+
+#scenario_migration_detail{
+	display: none;
+}
+#scenario_migration_detail2{
+	display: none;
+}
+
+#scenario_child_detail{
+	display: none;
+}
+
+#scenario_bioengineering_detail{
+	display: none;
+}
+
+.rejection_body{
+	width: 428px;
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 30px;
+	letter-spacing: 0.18px;
+	line-height: 43px;
+	color: #F4F4F4;
+	margin-top: 56px;
+	margin-left: 32px;
+}
+
+.got_it2{
+	height: 51px;
+	width: 137px;
+	border-radius: 25.5px;
+	background-color: #F4F4F4;
+	position: absolute;
+	margin-top: 40px;
+/*	margin-bottom: 42px;*/
+	margin-left: 176px;
+	cursor: pointer;
+}
+
+.got_it2 p{
+	font-family: source-sans-pro,sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.15px;
+	line-height: 36px;
+	color: #3C3C3C;
+	text-align: center;
+/*	padding-top: 8px;*/
+	margin: 0;
+	margin-top: 8px;
+}
+
+#child_rejection{
+	display: none;
+}
+
+#emission_rejection{
+	display: none;
+}
+
+#year_tooltip{
+	position: absolute;
+margin-left: 289px;
+	margin-top: -35px;
+	display: none;
+	z-index: 1;
+		
+}
+
+#year_tooltip p{
+	position: absolute;
+	font-family: source-sans-pro,sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 20px;
+	letter-spacing: 0.12px;
+	line-height: 28px;
+	height: 54px;
+	width: 294px;
+	color: #FFFFFF;
+	margin-top: -85px;
+	margin-left: 50px;
+}
+
+#budget_tooltip{
+	position: absolute;
+	margin-left: 289px;
+	margin-top: -35px;
+	display: none;
+}
+
+#budget_tooltip p{
+	position: absolute;
+	font-family: source-sans-pro,sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 20px;
+	letter-spacing: 0.12px;
+	line-height: 28px;
+	height: 54px;
+	width: 294px;
+	color: #FFFFFF;
+	margin-top: -85px;
+	margin-left: 50px;
+}
+
+#policy_tooltip{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 40px;
+	display: none;
+}
+
+#policy_tooltip p{
+	position: absolute;
+	font-family: source-sans-pro,sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 20px;
+	letter-spacing: 0.12px;
+	line-height: 28px;
+	height: 54px;
+	width: 294px;
+	color: #FFFFFF;
+	margin-top: -145px;
+	margin-left: 24px;
+}
+
+#message_tooltip{
+	position: absolute;
+	margin-left: -375px;
+	margin-top: -105px;
+	display: none;
+	
+}
+
+#message_tooltip p{
+	position: absolute;
+	font-family: source-sans-pro,sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 20px;
+	letter-spacing: 0.12px;
+	line-height: 28px;
+	height: 56px;
+	width: 306px;
+	color: #FFFFFF;
+	margin-top: -85px;
+	margin-left: 24px;
+}
+
+#strategy_tooltip{
+	position: absolute;
+	margin-left: -375px;
+	margin-top: -100px;
+	display: none;
+}
+
+#strategy_tooltip p{
+	position: absolute;
+	font-family: source-sans-pro,sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 20px;
+	letter-spacing: 0.12px;
+	line-height: 28px;
+	height: 56px;
+	width: 306px;
+	color: #FFFFFF;
+	margin-top: -85px;
+	margin-left: 24px;
+}
+
+#header_tooltip{
+	position: absolute;
+	margin-left: 180px;
+	display: none;
+	z-index: 1;
+}
+
+#header_tooltip p{
+	position: absolute;
+	font-family: source-sans-pro,sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 20px;
+	letter-spacing: 0.12px;
+	line-height: 28px;
+	height: 56px;
+	width: 306px;
+	color: #FFFFFF;
+	margin-top: -68px;
+	margin-left: 23px;
+}
+
+#homepage-title:hover #header_tooltip{
+	display: block;
+}
+
+#my_strategy:hover #strategy_tooltip{
+	display: block;
+}
+
+#message_center:hover #message_tooltip{
+	display: block;
+}
+
+#mitigation_button_text:hover #policy_tooltip{
+	display: block;
+}
+
+#budget_box:hover #budget_tooltip{
+	display: block;
+	z-index: 1;
+}
+
+#year_box:hover #year_tooltip{
+	display: block;
+}
+

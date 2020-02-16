@@ -1,0 +1,73 @@
+body {margin: 0; background:#3979B6; }
+
+#landing-page-title {
+	height: 67px;	
+	width: 660px;	
+	color: #F4F4F4;	
+	font-family: anisette-petite,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 50px;
+	letter-spacing: 0.3px;	
+	line-height: 67px;	
+/*	text-align: center;*/
+	position: absolute;
+	left: 2.98%;
+	top: 22.04%;
+}
+
+#earth{
+	height: 629.01px;	
+	width: 641px;
+	position: absolute;
+	left: 57.44%;
+	top: 17.61%;
+}
+
+#landing-page-welcome{
+		height: 298px;	
+	width: 778px;	
+	color: #F4F4F4;
+	font-family: source-sans-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 30px;	
+	letter-spacing: 0.18px;	
+	line-height: 50px;
+	position: absolute;
+	left: 2.98%;
+	top: 33.37%;
+}
+
+#start-button-container{
+	height: 84px;
+	width: 224px;
+	position: absolute;
+	left: 2.98%;
+	top: 70.85%;
+}
+
+#start-button{
+	height: 72px;	
+	width: 212px;
+	position: absolute;
+	left: 2.98%;
+	top: 70.85%;
+}
+
+
+#start{
+		height: 43px;	
+	width: 212px;	
+	color: #F4F4F4;
+	font-family: source-sans-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 30px;	
+	letter-spacing: 0.18px;	
+	line-height: 43px;
+	position: relative;
+	text-align: center;
+	margin-top: -68px;
+	
+}
